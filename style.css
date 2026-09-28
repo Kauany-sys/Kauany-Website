@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Montserrat:ital,wght@0,300..700;1,300..500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fundo {
+  background-color: #FAF7F5;
+}
+
+body {
+  background-color: #ffffff;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #61A48E;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #1d2b26;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: #5a6a63;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+}
+
+/* ============ HEADER ============ */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 40px;
+  background-color: #FAF7F5;
+}
+
+.logo h1 {
+  font-size: 2em;
+  color: #61A48E;
+}
+
+
+.nav-lista {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-lista a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #0F3730;
+}
+
+.nav-lista a:hover {
+  color: #61A48E;
+}
+
+/* ============ BANNER INICIAL ============ */
+.banner-inicial {
+  position: relative;
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  background-color: #61A48E;
+  min-height: 80vh;
+}
+
+.conteudo-banner {
+  padding: 60px 8%;
+}
+
+.conteudo-banner h1 {
+  font-size: 2.4em;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  max-width: 600px;
+}
+
+.subtitulo-banner {
+  color: #eafff6;
+  max-width: 480px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.btn-principal {
+  display: inline-block;
+  font-size: 0.85em;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding: 14px 28px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.btn-principal:hover {
+  background-color: #ffffff;
+  color: #0F3730;
+}
+
+/* ============ FAIXA ============ */
+.faixa {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #1D645A;
+  padding: 14px 20px;
+}
+
+.faixa p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  color: #eaf7f2;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+/* ============ SOBRE MIM ============ */
+.introducao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: start;
+  margin: 0 auto;
+  padding: 90px 45px;
+  gap: 40px;
+  max-width: 1000px;
+  min-height: 80vh;
+
+}
+
+.foto-perfil {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.introducao h1 {
+  font-size: 1.5em;
+}
+
+.introducao p {
+  font-size: 1em;
+  padding-top: 15px;
+}
+
+/* ============ DIVISOR ============ */
+.divisor {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.divisor .line {
+  border: none;
+  height: 1px;
+  width: 50%;
+  background-color: #61A48E;
+}
+
+.divisor .estrela {
+  color: #61A48E;
+  font-size: 1.1em;
+}
+
+/* ============ TRAJETÓRIA ============ */
+.titulo-secao {
+  font-size: 24px;
+  padding: 90px 0 50px;
+  text-align: center;
+}
+
+.trajetoria {
+  max-width: 750px;
+  margin: 0 auto 90px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  min-height: 80vh;
+}
+
+.item-trajetoria {
+  background-color: #61A48E;
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item-trajetoria .data {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #03bb85;
+}
+
+.item-trajetoria h1 {
+  font-size: 20px;
+}
+
+.item-trajetoria p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* ============ HABILIDADES ============ */
+.habilidades {
+  max-width: 1000px;
+  margin: 0 auto 90px;
+  padding: 0 20px;
+}
+
+.subtitulo-secao {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1d2b26;
+  font-weight: 600;
+}
+
+.lista-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.habilidade {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1d2b26;
+  padding: 10px 20px;
+  border: 1px solid #03bb85;
+}
+
+.lista-competencias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.competencia {
+  max-width: 260px;
+}
+
+.competencia h1 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.competencia p {
+  font-size: 14px;
+}
+
+/* ============ PROJETOS ============ */
+.galeria-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 60px;
+  padding: 0 40px 100px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.layout-projeto {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 25px;
+  border: 1px solid #03bb85;
+}
+
+.foto-projeto {
+  width: 100%;
+  height: 200px;
+  background-color: #eaf7f2;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-projeto span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #03bb85;
+  letter-spacing: 1px;
+}
+
+.titulo-projeto {
+  font-size: 19px;
+  padding-top: 5px;
+}
+
+.descricao-projeto {
+  font-size: 14px;
+  font-style: italic;
+  padding: 8px 0 15px;
+}
+
+.tags-projeto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.tags-projeto span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #03bb85;
+  border: 1px solid #03bb85;
+  padding: 4px 10px;
+}
+
+.btn-projeto {
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 10px 18px;
+  background-color: #03bb85;
+  border: 2px solid #03bb85;
+}
+
+.btn-projeto:hover {
+  background-color: #ffffff;
+  color: #03bb85;
+}
+
+/* ============ CONTATO ============ */
+.contato {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #1d2b26;
+}
+
+.contato h1 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contato p {
+  color: #cfe9df;
+  max-width: 450px;
+  margin: 0 auto 35px;
+}
+
+.email-contato {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  color: #03bb85;
+  text-decoration: none;
+  border-bottom: 2px solid #03bb85;
+  padding-bottom: 4px;
+  margin-bottom: 35px;
+}
+
+.links-contato {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links-contato a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #cfe9df;
+  text-decoration: none;
+}
+
+.links-contato a:hover {
+  color: #03bb85;
+}
+
+/* ============ RODAPÉ ============ */
+.rodape {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #eaf7f2;
+  padding: 18px 20px;
+}
+
+.rodape p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #5a6a63;
+  letter-spacing: 1px;
+}
+
+/* ============ RESPONSIVO ============ */
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.introducao {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-lista {
+    gap: 18px;
+  }
+
+  .conteudo-banner h1 {
+    font-size: 1.8em;
+  }
+
+  .titulo-secao {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .conteudo-banner h1 {
+    font-size: 2.8em;
+  }
+}
